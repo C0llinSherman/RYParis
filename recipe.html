@@ -50,8 +50,10 @@
                     <p>26 Reviews</p>
                 </div>
                 <div class="export">
-                    <button class="save">Save Recipe</button>
-                    <button class="print"></button>
+                    <form method="get" action="recipe.pdf">
+                        <button class="save" type="submit">Save Recipe</button>
+                    </form>
+                    <button class="print" onclick="window.print(); return false;"></button>
 
                 </div>
                 <p class="quote">
@@ -95,7 +97,7 @@
                     <h2>Directions</h2>
                     <ol>
                         <li>Preheat the oven to 450 degrees F. Place a roasting rack on a foil-lined baking sheet in the
-                            oven</li>
+                            oven.</li>
                         <li>Using your hands, break the meat into small pieces and combine evenly but loosely on a
                             parchment or waxed paper-lined baking sheet. Spread the meat out and season it generously
                             with salt and pepper. If desired, add the spice mix at this time.</li>
