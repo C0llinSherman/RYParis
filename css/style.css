@@ -277,3 +277,12 @@ iframe {
 button {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .items {
+        flex-direction: column;
+    }
+    .recipe {
+        flex-direction: column;
+    }
+  }
